@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+body{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 1.3em; 
+    letter-spacing: 0.7px; 
+    line-height: 1.5em;
+}
+
+.menu{
+	background-color: #2D7658;
+    width: 100%;
+	text-align: center;
+}
+.menu ul li{
+	display: inline;
+	font-family: 'Castoro', serif;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-flex;
+	padding: 20px 40px;
+	transition: .4s;
+}
+li a:hover{
+	background-color: #0c0c0cc7;
+}
+
+.first{
+	background-image: url(assets/fundo-projeto-top.jpg);
+	display: grid;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.about-me{
+    display: flex;
+    width: 100%;
+}
+
+.me{
+    width: 28%;
+    display: block;
+    padding: 10%;
+    margin-top: 2%;
+}
+
+.text{
+    padding: 12%;
+	text-align: justify;
+	background: none;
+}
+
+.title-about{  
+    margin-bottom: 30px;
+	text-align: justify;
+	background: none;    
+}
+.text-about{
+    margin-bottom: 30px;
+	text-align: justify;
+	background: none;    
+}
+
+.padding-text{
+    padding-top: 12%;
+    margin-bottom: 30px;
+	text-align: justify;
+}
+
+.video{
+	text-align: center;
+	background-image: url(assets/fundo-projeto-bottom.jpg);
+    padding-bottom: 5%;
+}
+
+.title-video{
+    padding: 0 20%;
+}
+.text-video{
+    padding: 2% 20%;
+    
+}
+
+.youtube{
+    box-shadow: 5px 8px 4px #00000050;
+}
+
+  /*Rodape*/
+.rodape{
+	width: 100%;
+}
+.ul-rodape{ 
+    display: flex;
+	width: 100%;
+    justify-content: center;
+	padding: 10px 0px;
+	background-color: #2D7658;
+	color: #ffffff;
+}
+.topicos{
+	width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+
+.link-rodape{
+    text-decoration: none;
+}
+
+.link-rodape:hover{
+    text-decoration: none;
+}
+
+.titulo-rodape{
+	text-align: center;
+}
+.txt-rodape, .click{
+	text-decoration: none;
+    font-size: smaller;
+	width: 100%;
+	text-align: center; 
+    color: #ffffff;
+}
+
+.click-logo{
+    width: 80px;
+    margin: 10% 10%;
+    display: inline;
+    text-decoration: none;
+}
+
+.map{
+    margin: 5% 20%;
+    display: block;
+    border-radius: 10px;
+}
+
+.logo-rodape{
+	width: 20%;
+	display: inline-block;
+}
+
+.direitos-rodape{
+    background-color: #2D7658;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 3%;
+}
